@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de Café</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="./index.html">
+                    <img class="img-logo" src="./img/logo.png" alt="Logo Blog DeCafé"> <!-- Usar imagen PNG -->
+                </a>
+                <nav class="navegacion naviCool">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            
+            <!-- El texto del header que siempre debe ser visible -->
+            <div class="texto-header">
+                <h2 class="no-margin dispo-mobil animated-h2">Blog de Café con consejos y cursos</h2>
+                <p class="no-margin animated-p">Aprende de los expertos con las mejores recetas</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <main class="contacto">            
+            <h1 class="colorCafe">Contacto</h1>           
+            <div class="imagen-form-fondo"></div> 
+            <!--imagen-->               
+            <form action="#" id="form-contacto" class="formulario-contacto" style="border: none !important;">
+                <div class="campo">
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Tu nombre">
+                </div>
+                <div class="campo">
+                    <label for="E-mail">E-mail</label>
+                    <input type="text" placeholder="Tu Email">
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>                          
+                <div class="enviar">
+                    <input class="btn btn-primario" type="button" value="ENVIAR" id="enviar-btn"> 
+                </div>              
+            </form>           
+        </main>
+    </div>
+
+    <!--CONTENIDO-PRINCIPAL-->
+    <footer class="site-footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="./index.html">
+                    <img class="img-logo" src="./img/logo.png" alt="Logo Blog DeCafé"> <!-- Usar imagen PNG -->
+                </a>
+                <nav class="navegacion naviCool">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/animaciones.js"></script>
+    <script src="./js/sweetalert.js"></script> <!-- Archivo para el SweetAlert -->
+</body>
+
+</html>
